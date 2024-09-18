@@ -1,0 +1,15 @@
+.chart-container1 {
+    
+    width: 100%;
+    display: block;
+  }
+
+  
+  @media (min-width: 768px) {
+    .chart-container1 {
+      display: none; 
+
+    }
+  }
+  
+  

@@ -1,2 +1,8 @@
-# React-Weather-app-
-Weather App A sleek and responsive React weather app offering real-time 5-day forecasts and 24-hour updates. Visualize weather data with interactive graphs, including predictions for rain, visibility, pressure, and wind speed. Built for seamless performance across all devices.
+# React + Vite
+
+This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+
+Currently, two official plugins are available:
+
+- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
+- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh

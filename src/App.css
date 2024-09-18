@@ -1,0 +1,67 @@
+.w-img-color {
+  font-size: 50px;
+  color: gray;
+}
+.w2-img-color {
+  font-size: 40px;
+  color: gray;
+}
+
+.parent-box {
+  display: flex;
+}
+.nav-cont {
+  width: 70vw;
+}
+
+.box1 {
+  width: 70vw;
+}
+
+.box2 {
+  background-color: #011638;
+
+  width: 30vw;
+}
+
+.text-today {
+  font-weight: 500;
+  margin-left: 3vw;
+  margin-top: 10px;
+}
+.day-forecast-text {
+  font-weight: 600;
+  margin-left: 20px;
+  display: none;
+}
+
+.nav-cont-display {
+  display: none;
+}
+
+@media (max-width: 808px) {
+  .parent-box {
+    flex-direction: column-reverse;
+  }
+
+  .box1 {
+    width: auto;
+  }
+  .box2 {
+    width: auto;
+  }
+
+  .nav-cont-display {
+    display: block;
+  }
+
+  .nav-cont {
+    display: none;
+  }
+}
+
+@media (max-width: 768px) {
+  .day-forecast-text {
+    display: block;
+  }
+}
